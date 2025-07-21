@@ -1,40 +1,33 @@
-🎬 MoviesAppFinal
-MoviesAppFinal is a modern Android application for movie lovers. It allows users to browse popular movies, view detailed information including cast and reviews, and save favorites for quick access. The app showcases clean Android development practices, such as MVVM architecture, Room database, and Hilt for dependency injection.
+ # 🎬 MoviesAppFinal
 
-📱 Features
-🔍 Browse a list of popular movies
+**MoviesAppFinal** is a modern Android app for movie lovers. Users can explore popular films, read cast and reviews, and save their favorite titles. Built with clean architecture, Hilt DI, Room, and MVVM, this app follows best practices for scalability and maintainability.
 
-📄 View detailed movie information: genre, runtime, release date, etc.
+---
 
-⭐ Mark/unmark movies as favorites
+## 🚀 Features
 
-👥 See full cast list for each movie
+- 🔍 **Browse** a list of popular movies  
+- 📄 **Detailed info**: title, genre, runtime, release date  
+- ⭐ **Add/remove favorites**  
+- 👥 **View cast** per movie  
+- 📝 **Read user reviews**  
+- 🔁 **Pull-to-refresh** movie list  
+- 🎥 **See similar movies**  
+- 💾 **Offline caching** using Room  
+- 🧠 **Clean architecture** with Repository pattern  
+- 💉 **Dependency injection** using Hilt  
+- 🧪 **Unit-testable MVVM structure**
 
-📝 Read real user reviews
+---
 
-🔄 Pull-to-refresh the movie list
+## 🛠 Tech Stack
 
-🎥 Access similar movies from the details screen
-
-💾 Local caching using Room database
-
-🧠 Clean separation of concerns using the Repository pattern
-
-💉 Dependency Injection with Hilt
-
-🧪 Unit-testable MVVM architecture
-
-🛠️ Tech Stack
-Language: Java
-
-Architecture: MVVM (Model-View-ViewModel)
-
-Database: Room
-
-Dependency Injection: Hilt
-
-Networking: Retrofit
-
-UI Components: RecyclerView, ViewModel, LiveData
-
-Build Tool: Gradle
+| Layer        | Technology                     |
+|--------------|--------------------------------|
+| Language     | Java                           |
+| Architecture | MVVM (Model-View-ViewModel)    |
+| DI           | Hilt                           |
+| Database     | Room                           |
+| Networking   | Retrofit                       |
+| UI           | RecyclerView, LiveData         |
+| Build Tool   | Gradle                         |
